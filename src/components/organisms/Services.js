@@ -6,7 +6,7 @@ const services = dataSite.services;
 
 export default function AgencyServicesSection() {
   return (
-    <section className='bg-gray-50 px-6 py-20 lg:px-16'>
+    <section id='services' className='bg-gray-50 px-6 py-20 lg:px-16'>
       <div className='max-w-7xl mx-auto'>
         {/* Heading */}
         <div className='flex flex-col md:flex-row justify-between items-start gap-6 mb-12'>
