@@ -19,7 +19,8 @@ const Navbar = () => {
       <div className='max-w-7xl mx-auto flex items-center justify-between px-6 py-4'>
         {/* LOGO */}
         <div className='flex items-center'>
-          <img src={dataSite.iconImage} alt='Logo' className='w-10 h-10 mr-2' />
+          {/* <img 
+          src={dataSite.iconImage} alt='Logo' className='w-10 h-10 mr-2' /> */}
           <span className='text-xl font-bold text-gray-800'>Blueshark</span>
         </div>
 
